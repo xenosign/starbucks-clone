@@ -367,10 +367,8 @@ header .badges .badge {
   border: 2px solid #1c3831;
   border-radius: 3px;
   width: 130px;
-  height: 38px;
-  text-align: center;
-  line-height: 38px;
   margin: 20px 0 0 0;
+  text-align: center;
   font-size: 15px;
   color: #1c3831;
   transition: 0.3s;

@@ -41,3 +41,9 @@ const swiperPromotion = new Swiper(".promotion .swiper", {
         nextEl: ".promotion .swiper-button-next",
     }
 });
+
+
+// SCROLL
+window.addEventListener('scroll', function(){
+    console.log(window.scrollY)
+});

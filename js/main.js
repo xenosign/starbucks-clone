@@ -60,10 +60,14 @@ const promotionToggleIcon = document.querySelector(".toggle-promotion span");
 promotionToggleBtn.addEventListener("click", function () {
   if (promotionEl.classList.contains("hide")) {
     promotionEl.classList.remove("hide");
-    promotionToggleIcon.classList.add("show");
   } else {
     promotionEl.classList.add("hide");
-    promotionToggleIcon.classList.remove("show");
+  }
+
+  if (promotionToggleIcon.style.transform === "rotate(180deg)") {
+    promotionToggleIcon.style.transform = "rotate(0deg)";
+  } else {
+    promotionToggleIcon.style.transform = "rotate(180deg)";
   }
 });
 
